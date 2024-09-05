@@ -1,0 +1,124 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 1px solid #000; /* Add a border to the container */
+    padding: 20px; /* Add some padding inside the container */
+    margin-left: 25%;
+   
+}
+h2{
+    margin: 0px;
+   
+}
+#details-para{
+    font-size: small;
+}
+#remember-para{
+    font-size: 10px;
+   
+
+}
+#forgot{
+    font-size: 10px;
+}
+input{
+     margin-bottom: 10px;
+     border : none;
+     border-bottom: 2px solid rgb(171, 171, 171);
+}
+input::placeholder{
+    font-size: 10px;
+    color: black;
+}
+
+
+.left {
+    text-align: center;
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-right: 10px;
+  
+  
+   
+   
+  
+    
+
+}
+
+
+.right {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+   
+    
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.checkbox-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+input[type = checkbox]{
+    margin-top: 10px;
+
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 20px;
+    width: 80%;
+   
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+button{
+    padding: 5px 10px 5px 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 4px;
+    /* font-size: 20px; */
+    cursor: pointer;
+    
+}
+#google-logo{
+    height: 16px;
+   margin-right: 6px;
+}
+.googlelogo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    font-size: 12px;
+}
+
