@@ -3,7 +3,7 @@ import { ACTIONS } from "../reducers/login/action";
 export const login = (dispatch) => async (credentials) => {
   dispatch({ type: ACTIONS.LOGIN_REQUEST });
   try {
-    const response = await fetch("http://localhost:5000/api/login", {
+    const response = await fetch("https://job-notification-backend.onrender.com/api/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(credentials),
